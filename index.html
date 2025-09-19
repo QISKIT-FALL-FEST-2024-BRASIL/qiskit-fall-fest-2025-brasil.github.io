@@ -1,0 +1,465 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta property="og:title" content="Qiskit Fall Fest Brasil - 2024">
+  <meta property="og:description" content="Venha aprender computação quântica!">
+  <meta property="og:image" content="https://qiskit-fall-fest-2025-brasil.github.io/img/whatsapp/whatsapp_m2.jpg">
+  <meta property="og:url" content="https://qiskit-fall-fest-2025-brasil.github.io/">
+  <meta property="og:type" content="website">
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Qiskit Fall Fest 2025 - Brasil</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <header>
+    <section id="imagem-evento">
+      <picture>
+        <source srcset="img/top_image/image-desktop.png" media="(min-width: 768px)">
+        <source srcset="img/top_image/image-mobile.png" media="(max-width: 767px)">
+        <img src="img/top_image/image-desktop.png" alt="Qiskit Fall Fest logo">
+      </picture>
+    </section>      
+    <a class="lang-switcher" href="index.html">
+      <p>EN</p>
+      <img src="img/flags/uk.png" alt="uk flag"/>
+    </a>
+  </div>
+  </header>
+
+  <main>
+  <div class="margin">
+
+  <section class="descricao">
+    <p>A Quantum Brasil e CESAR se uniram para organizar a edição brasileira do Qiskit Fall Fest 2025, que será tanto online quanto presencial!</p>
+  </section>
+
+    <section class="descricao">
+    <p>Participe Online, presencial ou nos dois formatos.</p>
+  </section>
+
+  <section class="descricao">
+    <p>O lado presencial do evento está sendo organizado com o apoio 
+das seguintes ligas, instituições e universidades: </p>
+
+      <p>•CESAR
+        •QUASAR (UFPB)
+        •LACQ UEA
+        •LACQ USP
+        •LACQ UTFPR
+        •LACQ PUC RS
+        •LACQ UFRGS
+        •LACICA universidade do Vale do Rio doce
+        •UPE
+        •UFPE
+</p>
+
+  </section>
+
+  <section class="descricao">
+    <p>Jogue presencialmente o Boardgme entanglion (desenvolvido pela IBM) e assista palestras, aulas e workshops sobre computação quântica, online.</p>
+  </section>
+
+
+  <section class="descricao">
+    <p>Para estudantes, profissionais de TI, entusiastas de ciência, e interessados em
+      explorar o futuro da computação quântica.</p>
+  </section>
+
+  <section class="descricao"">
+    <p>Palestras e atividades interativas
+      de programação de computadores quânticos.</p>
+  </section>
+
+  <section class="descricao"" id="ultimo">
+    <p></strong> Certificado para compor o seu currículo e comprovar a sua
+      participação.</p>
+  </section>
+
+  <section id="formulario-inscricao">    
+    <form id="form-inscricao">
+      <button type="submit" onclick="abrirForm()">Inscrever-se</button>
+    </form>
+    <!-- <p style="text-align: center;" id="mensagem-sucesso"></p> -->
+  </section>
+  <div class = "instagram_div" >
+    <a href="https://www.instagram.com/quantumbrasil_qff/" target="_blank"><img src="img/instagram/logo.png"/></a>
+    <a href="https://www.instagram.com/quantumbrasil_qff/" target="_blank"><p class="instagram-link" target="_blank">Siga-nos no Instagram</p></a>
+    <a href="https://www.instagram.com/quantumbrasil_qff/" target="_blank"><img src="img/instagram/logo.png"/></a>
+  </div>
+  </div>
+
+  
+  <section class="cronograma_mobile">
+    <h2>Cronograma</h2>
+
+    <!--
+
+    <div class="day" id="Esquenta_pal">      
+      <h3>16/11 - Sábado (pré-evento)</h3>
+      <div class="palestra-card">
+          <h5>Introdução ao Python</h5>
+          <p>14h - <a href="#organizadores">Wilson Oliveira da Fonseca</a></p>
+      </div>
+      <div class="palestra-card">
+        <h5>Primeiros passos no Qiskit</h5>
+        <p>14h50 - <a href="#organizadores">Maria Angélica Krüger Miranda</a></p>
+      </div>
+    </div>
+    -->
+
+    <div class="day" id="Segunda">
+      <h3>18/11 - Segunda-Feira</h3>
+
+      <!--
+
+      <div class="palestra-card" id="Fabricio_pal">
+        <h5>Abertura - A história da Computação Quântica</h5>
+        <p>18h30 - <a href="#organizadores">Douglas Jorge</a> e <a href="#organizadores">Fabrício Kolk</a></p>
+    </div>
+       -->
+
+    <div class="palestra-card" id="Ana_pal">
+          <h5>Quantum 101</h5>
+          <p>19h10 - <a href="#Ana_desc">Ana Paula Appel</a></p>
+      </div>
+
+      <!--
+
+      <div class="palestra-card" id="Bruna_pal">
+        <h5>Oportunidades de carreira na Computação Quântica</h5>
+        <p>20h - <a href="#Bruna_desc">Bruna Shinohara de Mendonça</a></p>
+      </div>
+    </div>
+    <div class="day" id="Terca">
+      <h3>19/11 - Terça-Feira</h3>
+      <div class="palestra-card" id="Victoria_pal">
+          <h5>Quantum gravity meets Quantum Computing - Emerging spacetime as quantum error correction code</h5>
+          <p>18h20 - <a href="#Victoria_desc">Victoria Porozova</p></a>
+      </div>
+      <div class="palestra-card" id="Gustavo_pal">
+        <h5>Quantum For Change - Previsão de enchentes utilizando computação quântica</h5>
+        <p>19h10 - <a href="#Gustavo_desc">Gustavo Arruda</a></p>
+      </div>
+      <div class="palestra-card" id="Jogi_pal">
+        <h5>Simetrias no Aprendizado Quântico de Máquina</h5>
+        <p>20h - <a href="#Jogi_desc">Jogi Suda Neto</a></p>
+      </div>
+    </div>
+    <div class="day" id="Quarta">
+      <h3>20/11 - Quarta-Feira</h3>
+      <div class="palestra-card" id="Leticia_pal">
+          <h5>Algoritmos de Otimização Quântica</h5>
+          <p>18h20 - <a href="#Leticia_desc">Leticia Bertuzzi</a></p>
+      </div>
+      <div class="palestra-card" id="Victor_pal">
+        <h5>QSVM, um modelo quântico para Machine Learning</h5>
+        <p>19h10 - <a href="#Victor_desc">Victor Leme Beltran</a></p>
+      </div>
+      <div class="palestra-card" id="Ricardo_pal">
+        <h5>Cibersegurança na Era Quântica: Desafios e Oportunidades - Laboratório Avançado de Redes e Segurança (LARS)</h5>
+        <p>20h - <a href="#Ricardo_desc">Ricardo</a>, <a href="#Kelton_desc">Kelton</a>, <a href="#Felipe_M_desc">Felipe</a>, <a href="#Inae_desc">Inaê</a></p>
+      </div>
+    </div>
+    
+    <div class="day" id="Quinta">
+      <h3>21/11 - Quinta-Feira</h3>
+      <div class="palestra-card" id="Samurai_pal">
+          <h5>Expectativas e Desafios em Otimização Quântica</h5>
+          <p>18h20 - <a href="#Samurai_desc">Samuraí Brito</a></p>
+      </div>
+      <div class="palestra-card" id="Marcos_pal">
+        <h5>Simulating spin biology using a Digital quantum computer</h5>
+        <p>19h10 - <a href="#Marcos_desc">Marcos Cesar de Oliveira</a></p>
+      </div>
+      <div class="palestra-card" id="Felipe_F_pal">
+        <h5>Algoritmos de Otimização Quântica: Métodos e Aplicações Práticas</h5>
+        <p>20h - <a href="#Felipe_F_desc">Felipe Fanchini</a></p>
+      </div>
+    </div>
+    <div class="day" id="Sexta">
+      <h3>22/11 - Sexta-Feira</h3>
+      <div class="palestra-card" id="Mauro_pal">
+          <h5>Fundamentos da Criptografia Quântica</h5>
+          <p>18h20 - <a href="#Mauro_desc">Mauro C. Andreassa</a></p>
+      </div>
+      <div class="palestra-card" id="Carlos_pal">
+        <h5>Uma breve jornada da mecânica quântica para a computação quântica</h5>
+        <p>19h10 - <a href="#Carlos_desc">Carlos H. G. Bessa</a></p>
+      </div>
+      <div class="palestra-card" id="Jullyano_pal">
+        <h5>Shaking Qubits for Fun and Knowledge</h5>
+        <p>20h - <a href="#Jullyano_desc">Jullyano Lino</a></p>
+      </div>
+    </div>
+    <div class="day" id="Sabado">
+      <h3>23/11 - Sábado</h3>
+      <div class="palestra-card" id="Pamela_pal">
+          <h5>QUBO e Otimização Combinatória para Soluções Reais</h5>
+          <p>14h - <a href="#Pamela_desc">Pamela</a>, <a href="#Erico_desc">Erico</a>, <a href="#Everton_desc">Everton</a></p>
+      </div>
+      <div class="palestra-card" id="Elon_pal">
+        <h5>Computação Quântica Fotônica: Realizações e Promessas</h5>
+        <p>14h50 - <a href="#Elon_desc">Elon Martins de Sá</a></p>
+      </div>
+      <div class="palestra-card" id="Miguel_pal">
+        <h5>Introdução à correção de erros na Computação Quântica</h5>
+        <p>15h40 - <a href="#Miguel_desc">Miguel Lisboa</a></p>
+      </div>
+      <div class="palestra-card" id="Jose_pal">
+        <h5>Tópicos avançados em correção de erros na Computação Quântica</h5>
+        <p>16h30 - <a href="#Jose_desc">José Victor S. Scursulim</a></p>
+      </div>
+    </div> 
+    
+    -->
+  </section>
+
+  <!--
+  <h2 class="programacao_semana" id="pre_evento">Programação pré-evento - Tarde:</h2>
+  <div class="cronograma_desktop_sabado">
+    
+    <h3>16/11 - Sábado</h3>
+      <div class="palestra-card">
+          <h5>Introdução ao Python</h5>
+          <p>14h - <a href="#organizadores">Wilson Oliveira da Fonseca</a></p>
+      </div>
+      <div class="palestra-card">
+        <h5>Primeiros passos no Qiskit</h5>
+        <p>14h50 - <a href="#organizadores">Maria Angélica Krüger Miranda</a></p>
+      </div>
+  </div>
+  -->
+
+  <h2 class="programacao_semana" id="h2_hide">Programação Semanal - Noite</h2>
+  <section class="cronograma_desktop" id="cronograma_desktop">
+    <h3>18/10 - Sábado</h3>
+
+      <!--
+      <div class="palestra-card" id="Fabricio_pal">
+        <h5>Abertura - A história da Computação Quântica</h5>
+        <p>18h30 - <a href="#organizadores">Douglas Jorge</a> e <a href="#organizadores">Fabrício Kolk</a></p>
+      </div>
+      -->
+      <div class="palestra-card" id="Ana_pal_m">
+          <h5>Quantum 101</h5>
+          <p>19h10 - <a href="#Ana_desc">Ana Paula Appel</a></p>
+      </div>
+<!--
+
+
+      <div class="palestra-card" id="Bruna_pal_m">
+        <h5>Oportunidades de carreira na Computação Quântica</h5>
+        <p>20h - <a href="#Bruna_desc">Bruna Shinohara de Mendonça</a></p>
+      </div>
+      
+    
+      <h3 class="change_color change_color">19/11 - Terça-Feira</h3>
+      <div class="palestra-card change_color" id="Victoria_pal_m">
+          <h5>Quantum gravity meets Quantum Computing - Emerging spacetime as quantum error correction code</h5>
+          <p>18h20 - <a href="#Victoria_desc">Victoria Porozova</p></a>
+      </div>
+      <div class="palestra-card change_color" id="Gustavo_pal_m">
+        <h5>Quantum For Change - Previsão de enchentes utilizando computação quântica</h5>
+        <p>19h10 - <a href="#Gustavo_desc">Gustavo Arruda</a></p>
+      </div>
+      <div class="palestra-card change_color" id="Jogi_pal_m">
+        <h5>Simetrias no Aprendizado Quântico de Máquina</h5>
+        <p>20h - <a href="#Jogi_desc">Jogi Suda Neto</a></p>
+      </div>
+      
+    
+      <h3>20/11 - Quarta-Feira</h3>
+      <div class="palestra-card" id="Leticia_pal_m">
+          <h5>Algoritmos de Otimização Quântica</h5>
+          <p>18h20 - <a href="#Leticia_desc">Leticia Bertuzzi</a></p>
+      </div>
+      <div class="palestra-card" id="Victor_pal_m">
+        <h5>QSVM, um modelo quântico para Machine Learning</h5>
+        <p>19h10 - <a href="#Victor_desc">Victor Leme Beltran</a></p>
+      </div>
+      
+      <div class="palestra-card" id="Ricardo_pal_m">
+        <h5>Cibersegurança na Era Quântica: Desafios e Oportunidades - Laboratório Avançado de Redes e Segurança (LARS)</h5>
+        <p>20h - <a href="#Ricardo_desc">Ricardo</a>, <a href="#Kelton_desc">Kelton</a>, <a href="#Felipe_M_desc">Felipe</a>, <a href="#Inae_desc">Inaê</a></p>
+      </div>
+    
+    
+     
+      <h3 class="change_color">21/11 - Quinta-Feira</h3>
+      <div class="palestra-card change_color" id="Samurai_pal_m">
+        
+          <h5>Expectativas e Desafios em Otimização Quântica</h5>
+          <p>18h20 - <a href="#Samurai_desc">Samuraí Brito</a></p>
+      </div>
+      
+      <div class="palestra-card change_color" id="Marcos_pal_m">
+        <h5>Simulating spin biology using a Digital quantum computer</h5>
+        <p>19h10 - <a href="#Marcos_desc">Marcos Cesar de Oliveira</a></p>
+      </div>
+      <div class="palestra-card change_color" id="Felipe_F_pal_m">
+        <h5>Algoritmos de Otimização Quântica: Métodos e Aplicações Práticas</h5>
+        <p>20h - <a href="#Felipe_F_desc">Felipe Fanchini</a></p>
+      </div>
+      
+    
+      <h3>22/11 - Sexta-Feira</h3>
+      <div class="palestra-card" id="Mauro_pal_m">
+          <h5>Fundamentos da Criptografia Quântica</h5>
+          <p>18h20 - <a href="#Mauro_desc">Mauro C. Andreassa</a></p>
+      </div>
+      <div class="palestra-card" id="Carlos_pal_m">
+        <h5>Uma breve jornada da mecânica quântica para a computação quântica</h5>
+        <p>19h10 - <a href="#Carlos_desc">Carlos H. G. Bessa</a></p>
+      </div>
+      
+      <div class="palestra-card" id="Jullyano_pal_m">
+        <h5>Shaking Qubits for Fun and Knowledge</h5>
+        <p>20h - <a href="#Jullyano_desc">Jullyano Lino</a></p>
+      </div>
+
+      -->
+
+<!--
+
+  <h2 class="programacao_semana" id="h2_hide">Programação - Tarde</h2>
+  <div class="cronograma_desktop_sabado less_padding" id="target_sabado">
+    <h3 id="less_padding_h3">23/11 Sábado</h3>
+    <div class="palestra-card smaller_h5" id="Pamela_pal_m">
+      <h5>QUBO e Otimização Combinatória para Soluções Reais</h5>
+      <p>14h - <a href="#Pamela_desc">Pamela</a>, <a href="#Erico_desc">Erico</a>, <a href="#Everton_desc">Everton</a></p>
+  </div>
+  <div class="palestra-card smaller_h5" id="Elon_pal_m">
+    <h5>Computação Quântica Fotônica: Realizações e Promessas</h5>
+    <p>14h50 - <a href="#Elon_desc">Elon Martins de Sá</a></p>
+  </div> 
+  <div class="palestra-card smaller_h5" id="Miguel_pal_m">
+    <h5>Introdução à correção de erros na Computação Quântica</h5>
+    <p>15h40 - <a href="#Miguel_desc">Miguel Lisboa</a></p>
+  </div>
+  <div class="palestra-card smaller_h5" id="Jose_pal_m">
+    <h5>Tópicos avançados em correção de erros na Computação Quântica</h5>
+    <p>16h30 - <a href="#Jose_desc">José Victor S. Scursulim</a></p>
+  </div>
+-->
+
+  </section>
+  
+
+
+
+
+  <section class="palestrantes">
+    
+    <h2>Palestrantes</h2>
+    
+    <div id="Ana_desc" class="palestrante-card">
+      <img class="palestrante-photo" src="Palestrantes/Ana/foto.jpg" alt="Foto Ana">
+      <div class="info-palestrante">
+        <!-- <p><strong>Tema:</strong> "Introdução à Computação Quântica"</p> -->
+        <!-- <p><strong>Horário:</strong> 10h00 - 11h00</p> -->
+        <div class = "nome_palestrante_linkedin_icone">
+          <h3>Ana Paula Appel</h3>
+          <a href="https://www.linkedin.com/in/paulinhaappel/", target="_blank">
+            <img class="linkedin" src="img/linkedin/icons8-linkedin-480.png" alt="LinkedIn" >
+          </a>
+        </div>
+        <p class="bio"> 
+          Senior AI Engineer, distinguished Quantum Ambassador, 
+          e chefe do conselho global de Ciência de Dados da IBM.
+          Doutorado em Ciência da Computação pela USP com estadia na Carnegie Mellon University,
+          focada na mineração de redes complexas.
+          Mais de 40 artigos publicados com mais de 1100 citações, é
+          a primeira mulher certificada em Ciência de Dados L3 na América Latina.
+          Recebeu o Prism Award da Society of Women Engineering em 2024 e incluída na lista "Women Engineers that you should know" em 2022.
+          Master Inventor (IBM) de 2016 a 2019, 
+          com 36 patentes concedidas e mais de 58 registradas no USPTO.</p>  
+          <p id="ver_palestra"><a href="#Ana_pal" >Ver Palestra</a></p>
+          <p id="voltar_cronograma"><a href="#Ana_pal_m" >Ver Palestra</a></p>      
+      </div>
+    </div>
+
+  </section>
+
+  
+  <div class="margin">
+  <div id="organizadores">
+    <h2>Organizadores</h2>
+    <div class="organizadores-container">
+      <div class="organizador">
+        <p id="Pamela">Pamela Thays Lins Bezerra</p>
+        <a href="https://www.linkedin.com/in/pamelathays/", , target="_blank">
+        <img class="linkedin" src="img/linkedin/icons8-linkedin-480.png" alt="LinkedIn">
+    </a>
+      </div>
+      <div class="organizador">
+        <p id="Fabricio_desc">Fabrício Kolk Carvalho</p>
+        <a href="https://www.linkedin.com/in/fabricio-kolk/", target="_blank">
+            <img class="linkedin" src="img/linkedin/icons8-linkedin-480.png" alt="LinkedIn">
+        </a>
+    </div>
+    
+    <div class="organizador">
+        <p id="Wilson_desc">Wilson Oliveira da Fonseca</p>
+        <a href="https://www.linkedin.com/in/fonsecawilsono/", target="_blank">
+            <img class="linkedin" src="img/linkedin/icons8-linkedin-480.png" alt="LinkedIn" >
+        </a>
+    </div>
+    
+    <div class="organizador">
+        <p id="Maria_desc">Maria Angélica Krüger Miranda</p>
+        <a href="https://www.linkedin.com/in/maria-angelica-kruger-miranda-4506661a3/", target="_blank">
+            <img class="linkedin" src="img/linkedin/icons8-linkedin-480.png" alt="LinkedIn">
+        </a>
+    </div>
+    
+    <div class="organizador" id="Jorge">
+        <p>Jorge Alexandre de Araújo</p>
+        <a href="https://www.linkedin.com/in/jorge-ara%C3%BAjo/", target="_blank">
+            <img class="linkedin" src="img/linkedin/icons8-linkedin-480.png" alt="LinkedIn">
+        </a>
+    </div>
+    
+    </div>
+  </div>
+</div>
+
+  <hr>
+
+  <hr>
+
+  <div id="sponsored-div">
+    <a href="https://www.ibm.com/quantum/events/fall-fest-2024" target="_blank">
+      <picture >
+        <source  srcset="img/sponsored_image/sponsored_img_pt_desktop.png" media="(min-width: 768px)">
+        <source  srcset="img/sponsored_image/sponsored_img_pt_mobile.png" media="(max-width: 767px)">
+        <img class=sponsored-img src="img/sponsored_image/sponsored_img_pt_desktop" alt="Sponsored Event, clique para saber mais">
+      </picture>
+    </a>
+    <section id="fale-conosco">      
+      <p>Contato: <strong>ffestbr24@gmail.com</strong></p>
+      <p><a href="privacidade.html" target="_blank">Política de privacidade</a></p>
+      
+    </section>
+    
+  </div>
+  
+</main>
+ 
+
+  <script>
+    function abrirForm() {
+      window.open('https://docs.google.com/forms/d/e/1FAIpQLSd2WALLfMTysuvf95Qszk73zILzitew0BFrw7jgDolN2b5hvw/viewform', 'blank')
+    }    
+  </script>
+
+  <footer>
+    <p>&copy; 2025 Página criada por Fabrício Kolk e baseada no design de Douglas Jorge. Todos os direitos reservados.</p>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+
+</html>

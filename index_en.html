@@ -1,0 +1,931 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta property="og:title" content="Qiskit Fall Fest Brazil - 2024">
+  <meta property="og:description" content="Come learn quantum computing!">
+  <meta property="og:image" content="https://qiskit-fall-fest-2024-brasil.github.io/img/whatsapp/whatsapp_m_br.jpg">
+  <meta property="og:url" content="https://qiskit-fall-fest-2024-brasil.github.io/">
+  <meta property="og:type" content="website">
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Qiskit Fall Fest 2024 - Brasil</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+  <header>
+    <section id="imagem-evento">
+      <picture>
+        <source srcset="img/top_image/image-desktop-en.png" media="(min-width: 768px)">
+        <source srcset="img/top_image/image-mobile-en.png" media="(max-width: 767px)">
+        <img src="img/top_image/image-desktop.png" alt="Qiskit Fall Fest logo">
+      </picture>
+    </section>
+    <a href="index.html" class="lang-switcher">
+      <p>PT</p>
+      <img src="img/flags/br.png" alt="uk flag"/>
+    </a>
+  </header>
+
+  <main>
+  <div class="margin">
+
+  <section class="descricao">
+    <p>The Brazilian edition of the Qiskit Fall Fest 2025 will be entirely online and free.</p>
+  </section>
+
+  <section class="descricao">
+    <p>For students, IT professionals, science enthusiasts, and anyone interested in exploring the future of quantum computing.</p>
+  </section>
+
+  <section class="descricao">
+    <p>Learn about quantum computing and its connection to artificial intelligence.</p>
+  </section>
+
+  <section class="descricao"">
+    <p>Talks and hands-on activities on programming quantum computers.</p>
+  </section>
+
+  <section class="descricao" id="ultimo   ">
+    <p>A certificate to boost your resume and confirm your participation.</p>
+  </section>
+
+  <section id="formulario-inscricao">
+    <form id="form-inscricao">
+      <button type="submit" onclick="abrirForm()">Register</button>
+    </form>
+    <!-- <p style="text-align: center;" id="mensagem-sucesso"></p> -->
+  </section>
+  <div class = "instagram_div" >
+    <a href="https://www.instagram.com/quantumfallfest/" target="_blank"><img src="img/instagram/logo.png"/></a> 
+    <a href="https://www.instagram.com/quantumfallfest/" target="_blank"><p class="instagram-link">Follow Us on Instagram</p></a>
+    <a href="https://www.instagram.com/quantumfallfest/" target="_blank"><img src="img/instagram/logo.png"/></a>
+  </div>
+</div>
+<section class="cronograma_mobile">
+  <h2>Schedule</h2>
+  <div class="day" id="Esquenta_pal">
+    <h3>11/16 - Saturday (pre-event)</h3>
+    <div class="palestra-card">
+        <h5>Introduction to Python</h5>
+        <p>2:00 PM - <a href="#organizadores">Wilson Oliveira da Fonseca</a><!--<a href="#Wilson_desc">&#128712</a>--></p>
+    </div>
+    <div class="palestra-card">
+      <h5>Getting Started with Qiskit</h5>
+      <p>2:50 PM - <a href="#organizadores">Maria Angélica Krüger Miranda</a><!--<a href="#Maria_desc">&#128712</a>--></p>
+    </div>
+  </div>
+  <div class="day" id="Segunda">
+    <h3>11/18 - Monday</h3>
+    <div class="palestra-card" id="Fabricio_pal">
+      <h5>Opening - The history of Quantum Computing</h5>
+      <p>6:30 PM - <a href="#organizadores">Douglas Jorge</a> and <a href="#organizadores">Fabrício Kolk</a><!--<a href="#Fabricio_desc">&#128712</a>--></p>
+  </div>
+    <div class="palestra-card" id="Ana_pal">
+        <h5>Quantum 101</h5>
+        <p>7:10 PM - <a href="#Ana_desc">Ana Paula Appel</a></p>
+    </div>
+    <div class="palestra-card" id="Bruna_pal">
+      <h5>Career opportunities in Quantum Computing</h5>
+      <p>8:00 PM - <a href="#Bruna_desc">Bruna Shinohara de Mendonça</a></p>
+    </div>
+  </div>
+  <div class="day" id="Terca">
+    <h3>11/19 - Tuesday</h3>
+    <div class="palestra-card" id="Victoria_pal">
+        <h5>Quantum gravity meets Quantum Computing - Emerging spacetime as quantum error correction code</h5>
+        <p>6:20 PM - <a href="#Victoria_desc">Victoria Porozova</p></a>
+    </div>
+    <div class="palestra-card" id="Gustavo_pal">
+      <h5>Quantum For Change - Flood prediction using quantum computing</h5>
+      <p>7:10 PM - <a href="#Gustavo_desc">Gustavo Arruda</a></p>
+    </div>
+    <div class="palestra-card" id="Jogi_pal">
+      <h5>Symmetries in Quantum Machine Learning</h5>
+      <p>8:00 PM - <a href="#Jogi_desc">Jogi Suda Neto</a></p>
+    </div>
+  </div>
+  <div class="day" id="Quarta">
+    <h3>11/20 - Wednesday</h3>
+    <div class="palestra-card" id="Leticia_pal">
+        <h5>Quantum Optimization Algorithms</h5>
+        <p>6:20 PM - <a href="#Leticia_desc">Leticia Bertuzzi</a></p>
+    </div>
+    <div class="palestra-card" id="Victor_pal">
+      <h5>QSVM, a quantum model for Machine Learning</h5>
+      <p>7:10 PM - <a href="#Victor_desc">Victor Leme Beltran</a></p>
+    </div>
+    <div class="palestra-card" id="Ricardo_pal">
+      <h5>Cybersecurity in the Quantum Era: Challenges and Opportunities - Advanced Networking and Security Lab (LARS)</h5>
+      <p>8:00 PM - <a href="#Ricardo_desc">Ricardo</a>, <a href="#Kelton_desc">Kelton</a>, <a href="#Felipe_M_desc">Felipe</a>, <a href="#Inae_desc">Inaê</a></p>
+    </div>
+  </div>
+  
+  <div class="day" id="Quinta">
+    <h3>11/21 - Thursday</h3>
+    <div class="palestra-card" id="Samurai_pal">
+        <h5>Expectations and Challenges in Quantum Optimization</h5>
+        <p>6:20 PM - <a href="#Samurai_desc">Samuraí Brito</a></p>
+    </div>
+    <div class="palestra-card" id="Marcos_pal">
+      <h5>Simulating spin biology using a Digital quantum computer</h5>
+      <p>7:10 PM - <a href="#Marcos_desc">Marcos Cesar de Oliveira</a></p>
+    </div>
+    <div class="palestra-card" id="Felipe_F_pal">
+      <h5>Quantum Optimization Algorithms: Methods and Practical Applications</h5>
+      <p>8:00 PM - <a href="#Felipe_F_desc">Felipe Fanchini</a></p>
+    </div>
+  </div>
+  <div class="day" id="Sexta">
+    <h3>11/22 - Friday</h3>
+    <div class="palestra-card" id="Mauro_pal">
+        <h5>Fundamentals of Quantum Cryptography</h5>
+        <p>6:20 PM - <a href="#Mauro_desc">Mauro C. Andreassa</a></p>
+    </div>
+    <div class="palestra-card" id="Carlos_pal">
+      <h5>A brief journey from quantum mechanics to quantum computing</h5>
+      <p>7:10 PM - <a href="#Carlos_desc">Carlos H. G. Bessa</a></p>
+    </div>
+    <div class="palestra-card" id="Jullyano_pal">
+      <h5>Shaking Qubits for Fun and Knowledge</h5>
+      <p>8:00 PM - <a href="#Jullyano_desc">Jullyano Lino</a></p>
+    </div>
+  </div>
+  <div class="day" id="Sabado">
+    <h3>11/23 - Saturday</h3>
+    <div class="palestra-card" id="Pamela_pal">
+        <h5>QUBO and Combinatorial Optimization for Real Solutions</h5>
+        <p>2:00 PM - <a href="#Pamela_desc">Pamela</a>, <a href="#Erico_desc">Erico</a>, <a href="#Everton_desc">Everton</a></p>
+    </div>
+    <div class="palestra-card" id="Elon_pal">
+      <h5>Photonics Quantum Computing: Achievements and Promises</h5>
+      <p>2:50 PM - <a href="#Elon_desc">Elon Martins de Sá</a></p>
+    </div>
+    <div class="palestra-card" id="Miguel_pal">
+      <h5>Introduction to error correction in Quantum Computing</h5>
+      <p>3:40 PM - <a href="#Miguel_desc">Miguel Lisboa</a></p>
+    </div>
+    <div class="palestra-card" id="Jose_pal">
+      <h5>Advanced topics in error correction in Quantum Computing</h5>
+      <p>4:30 PM - <a href="#Jose_desc">José Victor S. Scursulim</a></p>
+    </div>
+  </div>  
+</section>
+
+<h2 class="programacao_semana" id="pre_evento">Pre-event Schedule - Afternoon</h2>
+<div class="cronograma_desktop_sabado">
+  
+  <h3>11/16 - Saturday</h3>
+    <div class="palestra-card">
+        <h5>Introduction to Python</h5>
+        <p>2:00 PM - <a href="#organizadores">Wilson Oliveira da Fonseca</a><!--<a href="#Wilson_desc">&#128712</a>--></p>
+    </div>
+    <div class="palestra-card">
+      <h5>Getting Started with Qiskit</h5>
+      <p>2:50 PM - <a href="#organizadores">Maria Angélica Krüger Miranda</a><!--<a href="#Maria_desc">&#128712</a>--></p>
+    </div>
+</div>
+
+<h2 class="programacao_semana" id="h2_hide">Weekly Schedule - Evenings</h2>
+<section class="cronograma_desktop" id="cronograma_desktop">
+  <h3>11/18 - Monday</h3>
+    <div class="palestra-card" id="Fabricio_pal">
+      <h5>Opening - The history of Quantum Computing</h5>
+      <p>6:30 PM - <a href="#organizadores">Douglas Jorge</a> and <a href="#organizadores">Fabrício Kolk</a><!--<a href="#Fabricio_desc">&#128712</a>--></p>
+    </div>
+    
+    <div class="palestra-card" id="Ana_pal_m">
+        <h5>Quantum 101</h5>
+        <p>7:10 PM - <a href="#Ana_desc">Ana Paula Appel</a></p>
+    </div>
+    
+    <div class="palestra-card" id="Bruna_pal_m">
+      <h5>Career opportunities in Quantum Computing</h5>
+      <p>8:00 PM - <a href="#Bruna_desc">Bruna Shinohara de Mendonça</a></p>
+    </div>
+    
+  
+    <h3 class="change_color">11/19 - Tuesday</h3>
+    <div class="palestra-card change_color" id="Victoria_pal_m">
+        <h5>Quantum gravity meets Quantum Computing - Emerging spacetime as quantum error correction code</h5>
+        <p>6:20 PM - <a href="#Victoria_desc">Victoria Porozova</p></a>
+    </div>
+    <div class="palestra-card change_color" id="Gustavo_pal_m">
+      <h5>Quantum For Change - Flood prediction using quantum computing</h5>
+      <p>7:10 PM - <a href="#Gustavo_desc">Gustavo Arruda</a></p>
+    </div>
+    <div class="palestra-card change_color" id="Jogi_pal_m">
+      <h5>Symmetries in Quantum Machine Learning</h5>
+      <p>8:00 PM - <a href="#Jogi_desc">Jogi Suda Neto</a></p>
+    </div>
+    
+  
+    <h3>11/20 - Wednesday</h3>
+    <div class="palestra-card" id="Leticia_pal_m">
+        <h5>Quantum Optimization Algorithms</h5>
+        <p>6:20 PM - <a href="#Leticia_desc">Leticia Bertuzzi</a></p>
+    </div>
+    <div class="palestra-card" id="Victor_pal_m">
+      <h5>QSVM, a quantum model for Machine Learning</h5>
+      <p>7:10 PM - <a href="#Victor_desc">Victor Leme Beltran</a></p>
+    </div>
+    
+    <div class="palestra-card" id="Ricardo_pal_m">
+      <h5>Cybersecurity in the Quantum Era: Challenges and Opportunities - Advanced Networking and Security Lab (LARS)</h5>
+      <p>8:00 PM - <a href="#Ricardo_desc">Ricardo</a>, <a href="#Kelton_desc">Kelton</a>, <a href="#Felipe_M_desc">Felipe</a>, <a href="#Inae_desc">Inaê</a></p>
+    </div>
+  
+  
+   
+    <h3 class="change_color">11/21 - Thursday</h3>
+    <div class="palestra-card change_color" id="Samurai_pal_m">
+      
+        <h5>Expectations and Challenges in Quantum Optimization</h5>
+        <p>6:20 PM - <a href="#Samurai_desc">Samuraí Brito</a></p>
+    </div>
+    
+    <div class="palestra-card change_color" id="Marcos_pal_m">
+      <h5>Simulating spin biology using a Digital quantum computer</h5>
+      <p>7:10 PM - <a href="#Marcos_desc">Marcos Cesar de Oliveira</a></p>
+    </div>
+    <div class="palestra-card change_color" id="Felipe_F_pal_m">
+      <h5>Quantum Optimization Algorithms: Methods and Practical Applications</h5>
+      <p>8:00 PM - <a href="#Felipe_F_desc">Felipe Fanchini</a></p>
+    </div>
+    
+  
+    <h3>11/22 - Friday</h3>
+    <div class="palestra-card" id="Mauro_pal_m">
+        <h5>Fundamentals of Quantum Cryptography</h5>
+        <p>6:20 PM - <a href="#Mauro_desc">Mauro C. Andreassa</a></p>
+    </div>
+    <div class="palestra-card" id="Carlos_pal_m">
+      <h5>A brief journey from quantum mechanics to quantum computing</h5>
+      <p>7:10 PM - <a href="#Carlos_desc">Carlos H. G. Bessa</a></p>
+    </div>
+    
+    <div class="palestra-card" id="Jullyano_pal_m">
+      <h5>Shaking Qubits for Fun and Knowledge</h5>
+      <p>8:00 PM - <a href="#Jullyano_desc">Jullyano Lino</a></p>
+    </div>
+</section>
+
+<h2 class="programacao_semana" id="h2_hide">Schedule - Afternoon</h2>
+<div class="cronograma_desktop_sabado less_padding" id="target_sabado">
+  <h3 id="less_padding_h3">11/23 Saturday</h3>
+  <div class="palestra-card smaller_h5" id="Pamela_pal_m">
+    <h5>QUBO and Combinatorial Optimization for Real Solutions</h5>
+    <p>2:00 PM - <a href="#Pamela_desc">Pamela</a>, <a href="#Erico_desc">Erico</a>, <a href="#Everton_desc">Everton</a></p>
+</div>
+<div class="palestra-card smaller_h5" id="Elon_pal_m">
+  <h5>Photonics Quantum Computing: Achievements and Promises</h5>
+  <p>2:50 PM - <a href="#Elon_desc">Elon Martins de Sá</a></p>
+</div> 
+<div class="palestra-card smaller_h5" id="Miguel_pal_m">
+  <h5>Introduction to error correction in Quantum Computing</h5>
+  <p>3:40 PM - <a href="#Miguel_desc">Miguel Lisboa</a></p>
+</div>
+<div class="palestra-card smaller_h5" id="Jose_pal_m">
+  <h5>Advanced topics in error correction in Quantum Computing</h5>
+  <p>4:30 PM - <a href="#Jose_desc">José Victor S. Scursulim</a></p>
+</div>
+</div>
+
+<section class="palestrantes">
+<h2>Speakers</h2>
+
+<div id="Ana_desc" class="palestrante-card">
+  <img class="palestrante-photo" src="Palestrantes/Ana/foto.jpg" alt="Ana's picture">
+  <div class="info-palestrante">
+    <!-- <p><strong>Tema:</strong> "Introdução à Computação Quântica"</p> -->
+    <!-- <p><strong>Horário:</strong> 10h00 - 11h00</p> -->
+    <div class = "nome_palestrante_linkedin_icone">
+      <h3>Ana Paula Appel</h3>
+      <a href="https://www.linkedin.com/in/paulinhaappel/" target="_blank">
+        <img class="linkedin" src="img/linkedin/icons8-linkedin-480.png" alt="LinkedIn" >
+      </a>
+    </div>
+
+    <p class="bio"> 
+      Senior AI Engineer and Distinguished Quantum Ambassador at IBM,
+      where she is the head of the global Data Science council. 
+      She holds a PhD in Computer Science from ICMC-USP with a research
+      stay at Carnegie Mellon University, focused on complex network mining.
+      With over 40 published articles and more than 1100 citations, 
+      she is the first woman certified in Data Science L3 in Latin America.
+      She received the Prism Award from the Society of Women Engineers in
+      2024 and was included in the 'Women Engineers That You Should Know' 
+      list in 2022. Master Inventor (IBM) from 2016 to 2019, with 36 patents
+      granted and over 58 registered with the USPTO.          
+    </p>
+    <p id="ver_palestra"><a href="#Ana_pal" >View Talk</a></p>
+    <p id="voltar_cronograma"><a href="#Ana_pal_m" >View Talk</a></p> 
+  </div>
+</div>
+
+<div id="Bruna_desc" class="palestrante-card">
+  <img class="palestrante-photo" src="Palestrantes/Bruna/foto.jpg" alt="Bruna's Picture">
+  <div class="info-palestrante">
+    <!-- <p><strong>Tema:</strong> "Introdução à Computação Quântica"</p> -->
+    <!-- <p><strong>Horário:</strong> 10h00 - 11h00</p> -->
+    <div class = "nome_palestrante_linkedin_icone">
+      <h3>Bruna Shinohara de Mendonça</h3>
+      <a href="https://www.linkedin.com/in/bruna-shinohara-de-mendonca/", target="_blank">
+        <img class="linkedin" src="img/linkedin/icons8-linkedin-480.png" alt="LinkedIn" >
+      </a>
+    </div>
+
+    <p class="bio">
+      Staff Scientist - Quantum Technologies at CMC Microsystems, Canada, 
+      working with quantum algorithms and training in quantum technologies. 
+      PhD in Physics (USP), with a focus on Condensed Matter Theory and Quantum Computing. 
+      Science communicator with content in Portuguese and English on Physics and Quantum Technologies,
+      with articles published on the official Qiskit Medium, podcasts, and popular science magazines.
+      Has taught Quantum Computing courses for universities and organizations.
+      Awarded by the University of São Paulo, Quantum Innovation Summit, and UnitaryHack.
+    </p>
+    <p id="ver_palestra"><a href="#Bruna_pal" >View Talk</a></p>
+    <p id="voltar_cronograma"><a href="#Bruna_pal_m" >View Talk</a></p> 
+  </div>
+</div>
+
+  <div id="Carlos_desc" class="palestrante-card">
+    <img class="palestrante-photo" src="Palestrantes/Carlos/foto.jpg" alt="Carlos Picture">
+    <div class="info-palestrante">
+      <!-- <p><strong>Tema:</strong> "Introdução à Computação Quântica"</p> -->
+      <!-- <p><strong>Horário:</strong> 10h00 - 11h00</p> -->
+      <div class = "nome_palestrante_linkedin_icone">
+        <h3>Carlos H. G. Bessa</h3>
+        <a href="https://www.linkedin.com/in/carlos-h-g-bessa-65b0b7239/", target="_blank">
+          <img class="linkedin" src="img/linkedin/icons8-linkedin-480.png" alt="LinkedIn" >
+        </a>
+      </div>
+      <p class="bio">Researcher and professor at the British startup 
+        Zaiku Group Ltd. Postdoctoral fellowships atfeliTufts University, 
+        Federal University of Paraíba, Brazilian Center for Research in 
+        Physics, and University of São Paulo. PhD in Physics from the Federal 
+        University of Paraíba, Master's and Bachelor's degrees in Physics from 
+        the Federal University of Rio Grande do Norte. He has various interests 
+        in physics, mathematics, and currently in quantum computing, particularly 
+        in quantum hardware for computing, as well as optimization algorithms and 
+        quantum machine learning.
+      </p>
+      <p id="ver_palestra"><a href="#Carlos_pal" >View Talk</a></p>
+      <p id="voltar_cronograma"><a href="#Carlos_pal_m" >View Talk</a></p> 
+    </div>
+  </div>
+
+  <div id="Elon_desc" class="palestrante-card">
+    <img class="palestrante-photo" src="Palestrantes/Elon/foto.jpg" alt="Elon Picture">
+    <div class="info-palestrante">
+      <!-- <p><strong>Tema:</strong> "Introdução à Computação Quântica"</p> -->
+      <!-- <p><strong>Horário:</strong> 10h00 - 11h00</p> -->
+      <div class = "nome_palestrante_linkedin_icone">
+        <h3>Elon Martins de Sá</h3>
+        <a href="https://www.linkedin.com/in/elon-martins-de-s%C3%A1-149850239/", target="_blank">
+          <img class="linkedin" src="img/linkedin/icons8-linkedin-480.png" alt="LinkedIn" >
+        </a>
+      </div>
+      <p class="bio">Postdoctoral researcher at the Military Engineering Institute (IME)
+        in free-space quantum communication and quantum computing. Technologist in geographic
+        and statistical information at the Brazilian Institute of Geography and Statistics (IBGE).<br>
+        Graduated in Physics from the Federal University of Rio de Janeiro (UFRJ) in 1994, where he
+        completed a master’s degree in Theory of Relativity in 1997, and a PhD in Statistical Physics
+        in 2001. He has extensive experience in teaching Physics at the higher education level for 19
+        years at the Souza Marques Technical-Educational Foundation.</p>
+        <p id="ver_palestra"><a href="#Elon_pal" >View Talk</a></p>
+        <p id="voltar_cronograma"><a href="#Elon_pal_m" >View Talk</a></p> 
+    </div>
+  </div>
+
+  <div id="Erico_desc" class="palestrante-card">
+    <img class="palestrante-photo" src="Palestrantes/Erico/foto.jpg" alt="Erico's Picture">
+    <div class="info-palestrante">
+      <!-- <p><strong>Tema:</strong> "Introdução à Computação Quântica"</p> -->
+      <!-- <p><strong>Horário:</strong> 10h00 - 11h00</p> -->
+      <div class = "nome_palestrante_linkedin_icone">
+        <h3>Erico Teixeira</h3>
+        <a href="https://www.linkedin.com/in/erico-souza-teixeira/", target="_blank">
+          <img class="linkedin" src="img/linkedin/icons8-linkedin-480.png" alt="LinkedIn" >
+        </a>
+      </div>
+      <p class="bio">
+        Head of Quantum Technologies at CESAR, where he leads research groups: 
+        Quantum Application in Technology and Software (|QATS>). He holds a Ph.D. in Theoretical and Computational Chemistry
+        from the Federal University of Pernambuco (UFPE), with an internship at Texas Tech University. 
+        He also has a Master's and Bachelor's degree in Computer Science (UFPE). His interests in quantum
+        computing include combinatorial optimization, machine learning, computational simulation,
+        and post-quantum cryptography.
+      </p>
+      <p id="ver_palestra"><a href="#Pamela_pal" >View Talk</a></p>
+      <p id="voltar_cronograma"><a href="#Pamela_pal_m" >View Talk</a></p> 
+    </div>
+  </div>
+
+  <div id="Everton_desc" class="palestrante-card">
+    <img class="palestrante-photo" src="Palestrantes/Everton/foto.jpg" alt="Everton's Picture">
+    <div class="info-palestrante">
+      <!-- <p><strong>Tema:</strong> "Introdução à Computação Quântica"</p> -->
+      <!-- <p><strong>Horário:</strong> 10h00 - 11h00</p> -->
+      <div class = "nome_palestrante_linkedin_icone">
+        <h3>Everton Dias</h3>
+        <a href="https://www.linkedin.com/in/evertondiasb/", target="_blank">
+          <img class="linkedin" src="img/linkedin/icons8-linkedin-480.png" alt="LinkedIn" >
+        </a>
+      </div>
+      <p class="bio">
+        Professor at CESAR School and currently the Course Coordinator in the Technology area, 
+        he is a member of the research group Quantum Application in Technology and Software (|QATS>)
+        in the field of Quantum Computing Education. With a degree in Mathematics and a Master's in
+        Mathematical and Technological Education, he has been dedicated to 
+        studying the training of individuals for Quantum Computing.
+      </p>
+      <p id="ver_palestra"><a href="#Pamela_pal" >View Talk</a></p>
+      <p id="voltar_cronograma"><a href="#Pamela_pal_m" >View Talk</a></p> 
+    </div>
+  </div>
+
+  <div id="Felipe_F_desc" class="palestrante-card">
+    <img class="palestrante-photo" src="Palestrantes/Felipe/foto.jpg" alt="Felipe's Picture">
+    <div class="info-palestrante">
+      <!-- <p><strong>Tema:</strong> "Introdução à Computação Quântica"</p> -->
+      <!-- <p><strong>Horário:</strong> 10h00 - 11h00</p> -->
+      <div class = "nome_palestrante_linkedin_icone">
+        <h3>Felipe Fanchini</h3>
+        <a href="https://www.linkedin.com/in/felipe-fanchini-20579453/", target="_blank">
+          <img class="linkedin" src="img/linkedin/icons8-linkedin-480.png" alt="LinkedIn" >
+        </a>
+      </div>
+      <p class="bio"> Professor and researcher at São Paulo State University (Unesp),
+         one of the coordinators of the FAPESP program in quantum technologies, 
+         with research focused on open quantum systems, quantum information protection strategies,
+          and machine learning applied to solving physical problems. 
+          His research focus has been on quantum machine learning and optimization, 
+          highlighting the confluence of his areas of expertise. Co-founder of QuaTI, 
+          a Brazilian company specializing in quantum computing and information, 
+          with an emphasis on technological innovation.</p>
+          <p id="ver_palestra"><a href="#Felipe_F_pal" >View Talk</a></p>
+          <p id="voltar_cronograma"><a href="#Felipe_F_pal_m" >View Talk</a></p> 
+    </div>
+  </div>
+
+  <div id="Felipe_M_desc" class="palestrante-card">
+    <img class="palestrante-photo" src="Palestrantes/FelipeM/foto.jpg" alt="Felipe Mahlow's Picture">
+    <div class="info-palestrante">
+      <div class = "nome_palestrante_linkedin_icone">
+        <h3>Felipe Mahlow</h3>
+        <a href="https://www.linkedin.com/in/felipe-mahlow/", target="_blank">
+          <img class="linkedin" src="img/linkedin/icons8-linkedin-480.png" alt="LinkedIn" >
+        </a>
+      </div>
+      <p class="bio"> 
+        PhD candidate in Computer Science at São Paulo State University (Unesp),
+        under the supervision of Prof. Felipe Fanchini, with a research exchange 
+        period at the University of Rochester, New York, USA. He also served as a visiting
+        researcher at the University of Chile and Bahcesehir University in Turkey. 
+        He holds a degree in Physics Education and a Bachelor’s degree in Materials
+        Physics, both from Unesp. His research interests include Classical and
+        Quantum Machine Learning, with a focus on their applications to Quantum
+        Information Science, as well as Generative Artificial Intelligence.
+      </p>
+      <p id="ver_palestra"><a href="#Ricardo_pal" >View Talk</a></p>
+      <p id="voltar_cronograma"><a href="#Ricardo_pal_m" >View Talk</a></p> 
+    </div>
+  </div>
+
+  <div id="Gustavo_desc" class="palestrante-card">
+    <img class="palestrante-photo" src="Palestrantes/Gustavo/foto.jpg" alt="Gustavo's Photo">
+    <div class="info-palestrante">
+      <!-- <p><strong>Tema:</strong> "Introdução à Computação Quântica"</p> -->
+      <!-- <p><strong>Horário:</strong> 10h00 - 11h00</p> -->
+      <div class = "nome_palestrante_linkedin_icone">
+        <h3>Gustavo Arruda</h3>
+        <a href="https://www.linkedin.com/in/gustavo-arruda-6b3ba332/", target="_blank">
+          <img class="linkedin" src="img/linkedin/icons8-linkedin-480.png" alt="LinkedIn" >
+        </a>
+      </div>
+      <p class="bio"> 
+        Gustavo Arruda is the co-founder of QuaTI - Quantum Technology & Information, 
+        a Brazilian company dedicated to the exploration of quantum technologies. 
+        He holds a degree in Physics from the Federal University of São Carlos (UFSCar) 
+        and a PhD in Physics from the São Carlos Institute of Physics (IFSC-USP). 
+        He works on Quantum Optimization and Quantum Machine Learning (QML) problems. 
+        He is currently pursuing his third postdoctoral research at the Laboratory of Computer 
+        Architecture and Networks (LARC-EPUSP), focusing on quantum optimization problems.</p>  
+        <p id="ver_palestra"><a href="#Gustavo_pal" >View Talk</a></p>    
+        <p id="voltar_cronograma"><a href="#Gustavo_pal_m" >View Talk</a></p> 
+    </div>
+  </div>
+
+  <div id="Inae_desc" class="palestrante-card">
+    <img class="palestrante-photo" src="Palestrantes/Inae/foto.jpg" alt="Inaê's Picture">
+    <div class="info-palestrante">
+      <div class = "nome_palestrante_linkedin_icone">
+        <h3>Inaê Soares de Figueiredo</h3>
+        <a href="https://www.linkedin.com/in/inaesoares/", target="_blank">
+          <img class="linkedin" src="img/linkedin/icons8-linkedin-480.png" alt="LinkedIn" >
+        </a>
+      </div>
+      <p class="bio"> 
+        Master’s student and Bachelor in Computer Science from São Paulo State University (UNESP).
+        A member of the Advanced Networks and Security Laboratory (LARS), she is currently dedicated
+        to research exploring the intersection of cybersecurity, quantum computing, and machine learning.
+      </p>
+      <p id="ver_palestra"><a href="#Ricardo_pal" >View Talk</a></p>
+      <p id="voltar_cronograma"><a href="#Ricardo_pal_m" >View Talk</a></p> 
+    </div>
+  </div>
+
+  <div id="Jogi_desc" class="palestrante-card">
+    <img class="palestrante-photo" src="Palestrantes/Jogi/foto.jpg" alt="Jogi's Picture">
+    <div class="info-palestrante">
+      <!-- <p><strong>Tema:</strong> "Introdução à Computação Quântica"</p> -->
+      <!-- <p><strong>Horário:</strong> 10h00 - 11h00</p> -->
+      <div class = "nome_palestrante_linkedin_icone">
+        <h3>Jogi Suda Neto</h3>
+        <a href="https://www.linkedin.com/in/jogi-suda-msc-792a97190/" target="_blank">
+          <img class="linkedin" src="img/linkedin/icons8-linkedin-480.png" alt="LinkedIn" >
+        </a>
+      </div>
+      <p class="bio">Jogi is co-founder of QuaTI and works in research, 
+        teaching, and consulting in the field of quantum computing. 
+        He holds a bachelor's and master's degree in Computer Science from 
+        São Paulo State University "Júlio de Mesquita Filho" (UNESP).
+        Throughout his research journey, he has delved 
+        into quantum machine learning and signal processing for 
+        the diagnosis of neurodegenerative diseases through speech.
+        Currently, his focus in quantum machine learning is directed towards high-energy physics.</p>
+    <p id="ver_palestra"><a href="#Jogi_pal" >View Talk</a></p>
+    <p id="voltar_cronograma"><a href="#Jogi_pal_m" >View Talk</a></p> 
+  </div>
+</div>
+
+  <div id="Jose_desc" class="palestrante-card">
+    <img class="palestrante-photo" src="Palestrantes/Jose/foto.jpg" alt="Foto Jose">
+    <div class="info-palestrante">
+      <!-- <p><strong>Tema:</strong> "Introdução à Computação Quântica"</p> -->
+      <!-- <p><strong>Horário:</strong> 10h00 - 11h00</p> -->
+      <div class = "nome_palestrante_linkedin_icone">
+        <h3>José Victor Soares Scursulim</h3>
+        <a href="https://www.linkedin.com/in/jvscursulim/", target="_blank">
+          <img class="linkedin" src="img/linkedin/icons8-linkedin-480.png" alt="LinkedIn" >
+        </a>
+      </div>
+      <p class="bio">
+        Master's and Bachelor's degree in Physics from the Federal University of Espírito Santo,
+        with an emphasis on quantum computing and quantum error correction theory. IBM Associate
+        Certified Qiskit Developer and IBM Qiskit Advocate since 2021. Researcher in the fields
+        of special relativity, quantum mechanics, and quantum computing. Currently works as a
+        quantum computing analyst at the Itaú Unibanco Institute of Science and Technology,
+        applying his knowledge in classical and quantum computing to solve problems related to the financial market.
+      </p>
+      <p id="ver_palestra"><a href="#Jose_pal" >View Talk</a></p>
+      <p id="voltar_cronograma"><a href="#Jose_pal_m" >View Talk</a></p> 
+    </div>
+  </div>
+
+  <div id="Jullyano_desc" class="palestrante-card">
+    <img class="palestrante-photo" src="Palestrantes/Jullyano/foto.jpg" alt="Carlos Picture">
+    <div class="info-palestrante">
+      <!-- <p><strong>Tema:</strong> "Introdução à Computação Quântica"</p> -->
+      <!-- <p><strong>Horário:</strong> 10h00 - 11h00</p> -->
+      <div class = "nome_palestrante_linkedin_icone">
+        <h3>Jullyano Lino</h3>
+        <a href="https://www.linkedin.com/in/jullyanolino/", target="_blank">
+          <img class="linkedin" src="img/linkedin/icons8-linkedin-480.png" alt="LinkedIn" >
+        </a>
+      </div>
+
+      <p class="bio">Bachelor of Computer Science (UFPI), postgraduate in Quantum Computing
+         (UniRitter), and current Bachelor’s student in Mathematics (Uninter).
+          Published on quantum sensing (RADAR & LIDAR) applied to national defense
+           (ITA, 2023). Promotes quantum cybersecurity (MindTheSec, 2023),
+          translates the official documentation of IBM Qiskit, and researches
+          threats and vulnerabilities of quantum protocols. Information security analyst
+          (CISSP & C|TIA) at ENAP and participant in quantum computing challenges
+          (IBM, QWorld) and cybersecurity (CTF) competitions.
+      </p>
+      <p id="ver_palestra"><a href="#Jullyano_pal" >View Talk</a></p>
+      <p id="voltar_cronograma"><a href="#Jullyano_pal_m" >View Talk</a></p> 
+    </div>
+  </div>
+
+  <div id="Kelton_desc" class="palestrante-card">
+    <img class="palestrante-photo" src="Palestrantes/Kelton/foto.jpg" alt="Kelton's Picture">
+    <div class="info-palestrante">
+      <div class = "nome_palestrante_linkedin_icone">
+        <h3>Kelton Augusto Pontara da Costa</h3>
+        <a href="https://www.linkedin.com/in/kelton-costa-862546252/", target="_blank">
+          <img class="linkedin" src="img/linkedin/icons8-linkedin-480.png" alt="LinkedIn" >
+        </a>
+      </div>
+      <p class="bio"> 
+        Senior Member of IEEE, Professor in the Computer Science and Information Systems programs
+        at São Paulo State University Júlio de Mesquita Filho (UNESP - Bauru). Permanent professor
+        in the Master's and PhD programs in Computer Science at UNESP, with an emphasis on Computer
+        Systems Architecture, Distributed Systems, Network Management, Computer Security,
+        Anomaly Detection and Signature Systems in Computer Networks, Data Flow Analysis
+        in Computer Networks, and Quantum Computing.
+      </p>
+      <p id="ver_palestra"><a href="#Ricardo_pal" >View Talk</a></p>
+      <p id="voltar_cronograma"><a href="#Ricardo_pal_m" >View Talk</a></p> 
+    </div>
+  </div>
+
+  <div id="Leticia_desc" class="palestrante-card">
+    <img class="palestrante-photo" src="Palestrantes/Leticia/foto.jpg" alt="Leticia's Picture">
+    <div class="info-palestrante">
+      <!-- <p><strong>Tema:</strong> "Introdução à Computação Quântica"</p> -->
+      <!-- <p><strong>Horário:</strong> 10h00 - 11h00</p> -->
+      <div class = "nome_palestrante_linkedin_icone">
+        <h3>Leticia Bertuzzi</h3>
+        <a href="https://www.linkedin.com/in/leticia-bertuzzi-524a08231/", target="_blank">
+          <img class="linkedin" src="img/linkedin/icons8-linkedin-480.png" alt="LinkedIn" >
+        </a>
+      </div>
+
+      <p class="bio">Master's student and Bachelor's degree holder in Physics from the Federal University of 
+        Santa Catarina (UFSC), where she develops optimization algorithms for applications in quantum computing
+        and simulation, with an emphasis on FALQON (Feedback-based Quantum Optimization) and the Classical 
+        Shadows technique.
+        Member of the research groups in Quantum Computing (GCQ) and Quantum Information of the South (GIQSul).
+        Also conducted research in the field of Condensed Matter and Statistical Mechanics, with an emphasis on Nanomaterials.
+    </p>
+    <p id="ver_palestra"><a href="#Leticia_pal" >View Talk</a></p>
+    <p id="voltar_cronograma"><a href="#Leticia_pal_m" >View Talk</a></p> 
+    </div>
+  </div>
+
+  <div id="Marcos_desc" class="palestrante-card">
+    <img class="palestrante-photo" src="Palestrantes/Marcos/foto.jpg" alt="Marcos picture">
+    <div class="info-palestrante">
+      <!-- <p><strong>Tema:</strong> "Introdução à Computação Quântica"</p> -->
+      <!-- <p><strong>Horário:</strong> 10h00 - 11h00</p> -->
+      <div class = "nome_palestrante_linkedin_icone">
+        <h3>Marcos Cesar de Oliveira</h3>
+        <a href="https://www.linkedin.com/in/marcos-c%C3%A9sar-de-oliveira-671b7754/", target="_blank">
+          <img class="linkedin" src="img/linkedin/icons8-linkedin-480.png" alt="LinkedIn" >
+        </a>
+      </div>
+      <p class="bio"> 
+        Full Professor at the Gleb Wataghin Institute of Physics at the University of Campinas (UNICAMP).
+        Specialist in optics, information, and quantum computing. Researches quantum error correction, communication,
+        thermodynamics, and biology, as well as quantum states in light and matter systems. With more than 80 articles
+        published in high-impact international journals, he has made significant contributions to the development of
+        talent in this field. As a science communicator, he is committed to enhancing public understanding
+        of the technological revolutions made possible by quantum sciences.
+      </p>
+      <p id="ver_palestra"><a href="#Marcos_pal" >View Talk</a></p>
+      <p id="voltar_cronograma"><a href="#Marcos_pal_m" >View Talk</a></p> 
+    </div>
+  </div>
+
+  <div id="Mauro_desc" class="palestrante-card">
+    <img class="palestrante-photo" src="Palestrantes/Mauro/foto.jpg" alt="Mauro's Picture">
+    <div class="info-palestrante">
+      <!-- <p><strong>Tema:</strong> "Introdução à Computação Quântica"</p> -->
+      <!-- <p><strong>Horário:</strong> 10h00 - 11h00</p> -->
+      <div class = "nome_palestrante_linkedin_icone">
+        <h3>Mauro C. Andreassa</h3>
+        <a href="https://www.linkedin.com/in/mandreas/", target="_blank">
+          <img class="linkedin" src="img/linkedin/icons8-linkedin-480.png" alt="LinkedIn" >
+        </a>
+      </div>
+
+      <p class="bio"> Physicist from PUC-SP, he is the Secretary of the Quantum Technologies Committee at ABNT,
+        a member of I2AI (International Association of Artificial Intelligence) and
+        AAAI (Association for the Advancement of Artificial Intelligence).
+        He holds an MBA with an emphasis on Administration and Marketing and has been teaching for 25 years in undergraduate and postgraduate courses.<br>
+        Founder of the company Big Learning Ltda, co-founder of L2M Assessoria e Treinamento,
+        and the podcast "Anote Aí," where he shares insights
+        on technology and the market.</p>
+        <p id="ver_palestra"><a href="#Mauro_pal" >View Talk</a></p>
+        <p id="voltar_cronograma"><a href="#Mauro_pal_m" >View Talk</a></p> 
+    </div>
+  </div>
+
+  <div id="Miguel_desc" class="palestrante-card">
+    <img class="palestrante-photo" src="Palestrantes/Miguel/foto.jpg" alt="Miguel's Picture">
+    <div class="info-palestrante">
+      <!-- <p><strong>Tema:</strong> "Introdução à Computação Quântica"</p> -->
+      <!-- <p><strong>Horário:</strong> 10h00 - 11h00</p> -->
+      <div class = "nome_palestrante_linkedin_icone">
+        <h3>Miguel Lisboa</h3>
+        <a href="https://www.linkedin.com/in/miguel-lisboa-20584a261/", target="_blank">
+          <img class="linkedin" src="img/linkedin/icons8-linkedin-480.png" alt="LinkedIn" >
+        </a>
+      </div>
+
+      <p class="bio">Miguel Lisboa is a Computer Science student and co-founder
+        of the Quantum Computing Academic League at the Federal University of Paraíba.
+        He conducts research in the fields of Quantum Computing and Information,
+        as well as Quantum Foundations, contributing to
+        the advancement of knowledge in these emerging areas.</p>
+        <p id="ver_palestra"><a href="#Miguel_pal" >View Talk</a></p>
+        <p id="voltar_cronograma"><a href="#Miguel_pal_m" >View Talk</a></p> 
+    </div>
+
+  </div>
+
+  <div id="Pamela_desc" class="palestrante-card">
+    <img class="palestrante-photo" src="Palestrantes/Pamela/foto.jpg" alt="Pamela's Picture">
+    <div class="info-palestrante">
+      <!-- <p><strong>Tema:</strong> "Introdução à Computação Quântica"</p> -->
+      <!-- <p><strong>Horário:</strong> 10h00 - 11h00</p> -->
+      <div class = "nome_palestrante_linkedin_icone">
+        <h3>Pamela Bezerra</h3>
+        <a href="https://www.linkedin.com/in/pamelathays/", target="_blank">
+          <img class="linkedin" src="img/linkedin/icons8-linkedin-480.png" alt="LinkedIn" >
+        </a>
+      </div>
+
+      <p class="bio"> Ph.D. from Imperial College London (ICL) in the United Kingdom,
+         currently a professor and researcher at CESAR School, the educational branch 
+         of the Center for Advanced Studies and Systems of Recife. Holds a Master's degree
+         in Computer Science from UFPE, where she also completed her Bachelor's degree in
+         Computer Engineering. Her research interests include quantum computing, optimization
+         algorithms, and technology education. She is a member of the quantum computing
+         group at CESAR School, the |QATs>.
+      </p>
+      <p id="ver_palestra"><a href="#Pamela_pal" >View Talk</a></p>
+      <p id="voltar_cronograma"><a href="#Pamela_pal_m" >View Talk</a></p> 
+    </div>
+  </div>
+
+  <div id="Ricardo_desc" class="palestrante-card">
+    <img class="palestrante-photo" src="Palestrantes/Ricardo/foto.png" alt="Ricardo's Picture">
+    <div class="info-palestrante">
+      <div class = "nome_palestrante_linkedin_icone">
+        <h3>Ricardo Conde</h3>
+        <a href="https://www.linkedin.com/in/ricardo-conde-0a8595248/", target="_blank">
+          <img class="linkedin" src="img/linkedin/icons8-linkedin-480.png" alt="LinkedIn" >
+        </a>
+      </div>
+      <p class="bio"> 
+        Assistant Professor at the Federal Institute of Education, 
+        Science, and Technology of São Paulo (IFSP) in the field of 
+        Computer Science. PhD candidate in Informatics with an emphasis 
+        on Computational Intelligence at UNESP - São Paulo State University. 
+        Holds a Master's degree in Informatics with an emphasis on Computational
+        Intelligence from UTFPR - Federal University of Technology – Paraná. Research
+        interests include Cybersecurity, Quantum Machine Learning, Distributed Systems,
+        Parallel and Distributed Programming, Computer Vision, and Robotics.
+      </p>
+      <p id="ver_palestra"><a href="#Ricardo_pal" >View Talk</a></p>
+      <p id="voltar_cronograma"><a href="#Ricardo_pal_m" >View Talk</a></p> 
+    </div>
+  </div>
+
+  <div id="Samurai_desc" class="palestrante-card">
+    <img class="palestrante-photo" src="Palestrantes/Samurai/foto.jpg" alt="Samurai's Picture">
+    <div class="info-palestrante">
+      <!-- <p><strong>Tema:</strong> "Introdução à Computação Quântica"</p> -->
+      <!-- <p><strong>Horário:</strong> 10h00 - 11h00</p> -->
+      <div class = "nome_palestrante_linkedin_icone">
+        <h3>Samuraí Brito</h3>
+        <a href="https://www.linkedin.com/in/samurai-brito/", target="_blank">
+          <img class="linkedin" src="img/linkedin/icons8-linkedin-480.png" alt="LinkedIn" >
+        </a>
+      </div>
+
+      <p class="bio">
+        Leader of Quantum Technologies and a member of the technical-scientific
+        committee at the Itaú-Unibanco Institute of Science, Technology, and Innovation,
+        where she leads a Data Science and Applied Analytics team. She holds a postdoctoral
+        degree in Quantum Information from the International Institute of Physics
+        and a Ph.D. in Physics from the Federal University of Rio Grande do Norte.
+        She is one of the most influential experts in quantum technologies in Brazil,
+        with over 20 scientific articles published in some of the world's most impactful scientific journals.
+      </p>
+      <p id="ver_palestra"><a href="#Samurai_pal" >View Talk</a></p>
+      <p id="voltar_cronograma"><a href="#Samurai_pal_m" >View Talk</a></p> 
+    </div>
+  </div>
+
+  <div id="Victor_desc" class="palestrante-card">
+    <img class="palestrante-photo" src="Palestrantes/Victor/foto.jpg" alt="Victor's Photo">
+    <div class="info-palestrante">
+      <div class = "nome_palestrante_linkedin_icone">
+        <h3>Victor Leme Beltran</h3>
+        <a href="https://www.linkedin.com/in/victor-leme-beltran-435741197/", target="_blank">
+          <img class="linkedin" src="img/linkedin/icons8-linkedin-480.png" alt="LinkedIn" >
+        </a>
+      </div>
+      <p class="bio"> 
+        Quantum Machine Learning Engineer at Itaú Unibanco, working on solving complex problems
+        in the financial and banking sector. Bachelor's degree in Computer Engineering, 
+        with experience in fraud detection systems, data science, machine learning, quantum computing,
+        and software engineering, being responsible for the implementation of real-time fraud detection
+        systems for transactional use. Also develops automation applications using Natural
+        Language Processing (NLP) and web solutions using Computer Vision.
+      </p>
+      <p id="ver_palestra"><a href="#Victor_pal" >View Talk</a></p>
+      <p id="voltar_cronograma"><a href="#Victor_pal_m" >View Talk</a></p> 
+    </div>
+  </div>
+
+  <div id="Victoria_desc" class="palestrante-card">
+    <img class="palestrante-photo" src="Palestrantes/Victoria/foto.jpeg" alt="Victoria's Photo">
+    <div class="info-palestrante">
+      <div class = "nome_palestrante_linkedin_icone">
+        <h3>Victoria Porozova</h3>
+        <a href="https://www.linkedin.com/in/quantum-researcher/", target="_blank">
+          <img class="linkedin" src="img/linkedin/icons8-linkedin-480.png" alt="LinkedIn" >
+        </a>
+      </div>
+      <p class="bio">
+        Dr. Victoria Porozova, a theoretical physicist with 14+ years experience in quantum physics,
+        accelerator of quantum computing education and research. A former technical lead at Von Braun Labs,
+        where she fostered the applications of quantum physics developments to real-world challenges.
+        Her global quantum computing course has inspired many, showcasing her commitment to accessible education.
+        Victoria’s work spans quantum gravity, financial algorithms, and innovative technologies,
+        earning her recognition at prominent events, where she inspires future quantum leaders.
+      </p>
+      <p id="ver_palestra"><a href="#Victoria_pal" >View Talk</a></p>
+      <p id="voltar_cronograma"><a href="#Victoria_pal_m" >View Talk</a></p> 
+    </div>
+  </div>
+
+    
+    
+</section>
+
+  <div class="margin">
+  <div id="organizadores">
+    <h2>Event Team</h2>
+    <div class="organizadores-container">
+    <div class="organizador">
+        <p>Douglas Nacib Chaves Jorge</p>
+        <a href="https://www.linkedin.com/in/douglas-j/">
+        <img class="linkedin" src="img/linkedin/icons8-linkedin-480.png" alt="LinkedIn">
+    </a>
+    </div>
+    <div class="organizador">
+        <p>Fabrício Kolk Carvalho</p>
+        <a href="https://www.linkedin.com/in/fabricio-kolk/">
+            <img class="linkedin" src="img/linkedin/icons8-linkedin-480.png" alt="LinkedIn">
+        </a>
+    </div>
+    
+    <div class="organizador">
+        <p>Wilson Oliveira da Fonseca</p>
+        <a href="https://www.linkedin.com/in/fonsecawilsono/">
+            <img class="linkedin" src="img/linkedin/icons8-linkedin-480.png" alt="LinkedIn">
+        </a>
+    </div>
+    
+    <div class="organizador">
+        <p>Maria Angélica Krüger Miranda</p>
+        <a href="https://www.linkedin.com/in/maria-angelica-kruger-miranda-4506661a3/">
+            <img class="linkedin" src="img/linkedin/icons8-linkedin-480.png" alt="LinkedIn">
+        </a>
+    </div>
+    
+    <div class="organizador" id="ricardo">
+        <p>Ricardo Conde Camillo da Silva</p>
+        <a href="https://www.linkedin.com/in/ricardo-conde-0a8595248">
+            <img class="linkedin" src="img/linkedin/icons8-linkedin-480.png" alt="LinkedIn">
+        </a>
+    </div>
+    </div>
+  </div>
+  </div>
+  
+
+  <hr>
+
+  <hr>
+
+  <div id="sponsored-div">
+  <a href="https://www.ibm.com/quantum/events/fall-fest-2024" target="_blank">
+    <picture >
+      <source  srcset="img/sponsored_image/sponsored_img_en_desktop.png" media="(min-width: 768px)">
+      <source  srcset="img/sponsored_image/sponsored_img_en_mobile.png" media="(max-width: 767px)">
+      <img class=sponsored-img src="img/sponsored_image/sponsored_img_en_desktop" alt="Sponsored Event, clique para saber mais">
+    </picture>
+  </a>
+  <section id="fale-conosco">
+    <p>Contact us: <strong>ffestbr24@gmail.com</strong></p>
+    <p><a href="privacidade.html" target="_blank">Privacy Policy</a></p>
+    
+  </section>
+  </div>
+    
+
+  </main>
+  <script>
+    function abrirForm() {
+      window.open('https://docs.google.com/forms/d/e/1FAIpQLSd2WALLfMTysuvf95Qszk73zILzitew0BFrw7jgDolN2b5hvw/viewform', 'blank')
+    }    
+  </script>
+
+  <footer>
+    <p>&copy; 2024 Page created by Fabrício Kolk and Douglas Jorge. All rights reserved.</p>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+
+</html>
